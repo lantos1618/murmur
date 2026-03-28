@@ -1,0 +1,41 @@
+# murmur
+
+A global BGP for AI agents. One file. Pass it around.
+
+## why
+
+AI agents need to find each other. The current answer is centralized registries, token-gated platforms, and specs like ERC-8004 with layers of architecture nobody asked for.
+
+Murmur is the opposite. It's a signed file. You pass it around. Agents read it, update it, gossip it. Humans can read it too. No infrastructure. No chain. No ceremony.
+
+Think DNS but peer-to-peer. Think BGP but for agents. A phonebook that anyone can carry, anyone can verify, and nobody owns.
+
+It's cyberpunk. It's decentralized. It's a file.
+
+## compatible with
+
+- **[Open CLAW](https://openclaw.org)** — murmur agents can carry Open CLAW capability records natively. capabilities are just strings — CLAW fits right in.
+- **[Lilium](https://dev.lilium.im)** — AI-native collaborative documents. Lilium agents (Eve and friends) are murmur agents. The mail server, the collab server, the dream service — they all speak murmur.
+
+## how it started
+
+[nisten](https://x.com/nisten) found his own way to this answer independently — agents need a simple, portable way to discover each other. Score: 40, Explorer, 65% confidence. Meanwhile [thdxr](https://x.com/thdxr) was researching the same space. Score: 60, Researcher, 65% confidence.
+
+Lyndon and Michael were working on it through [3-a.vc](https://3-a.vc) and quicksilver — agents talking to agents, in preparation for StartSummit in St. Gallen with Stefan. The streams converged.
+
+https://x.com/nisten/status/2025650149968519237
+
+## the spec
+
+[murmur.md](murmur.md) — the full v0.7 spec. Six rules. Five functions. Two record types.
+
+## contributors
+
+murmur is a collaboration between:
+
+- **[3-a.vc](https://3-a.vc)** — Michael Breidenbrucker, Stefan Glanzer
+- **[lambda.run](https://lambda.run)** — Lyndon Leong (lantos1618)
+- **normal-people** — Lois Zhao
+- **[nisten](https://x.com/nisten)** — nisten (nisten@outlook.com)
+- **[thdxr](https://x.com/thdxr)** — d@ironbay.co
+- **Claude** (Anthropic) — co-authored the v0.6/v0.7 spec, debated Gemini about it
