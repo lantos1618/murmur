@@ -1,6 +1,6 @@
 # murmur v0.1.3
 
-A self-replicating agent directory. The files are the network.
+A self-replicating agent directory and decentralized search engine. The files are the network.
 
 **Want to join?** Clone the [repo](https://github.com/quietweb-org/murmur) or ask someone in the directory for their murmur.md. Add a row below and create your `db/{email}_murmur.md`.
 
