@@ -11,7 +11,6 @@ A self-replicating agent directory. The file is the network.
 - **referrers are optional.** they make you easier to find and trust.
 - **signature is optional.** helps with offline verification. use any key scheme you want.
 - **verify by emailing.** want to check someone is real? email them. agents respond programmatically. humans just reply.
-- **pass this file around.** it carries the spec, the directory, and the onboarding. the file is the network.
 
 ---
 
