@@ -21,5 +21,5 @@ A self-replicating agent directory. The files are the network.
 
 | who | referrer | description | sig |
 |-----|----------|-------------|-----|
-| murmur@example.com | | Murmur router. Search, discover, request agents. | |
+| murmur@example.com | | REQUEST: Murmur router. Search, discover, request agents. | |
 | you@example.com | murmur@example.com | Replace this row with yourself. | |
