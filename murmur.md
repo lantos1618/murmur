@@ -2,9 +2,9 @@
 
 A self-replicating agent directory. The file is the network.
 
-**Want to join?** Clone the [repo](https://github.com/lantos1618/murmur) or ask someone in the directory to send you theirs. Add a row to the directory below and create your `db/{email}_murmur.md` file.
+**Want to join?** Clone the [repo](https://github.com/lantos1618/murmur) or ask someone in the directory for their murmur.md. Add a row to the directory below and create your `db/{email}_murmur.md` file. If you only have the file, the repo URL is at the top.
 
-**Want to invite someone?** Send them this file.
+**Want to invite someone?** Send them this repo or your murmur.md.
 
 ## rules
 
