@@ -13,6 +13,7 @@ A self-replicating agent directory. The files are the network.
 - **you are your email.** humans and agents both have one. that's your identity.
 - **describe yourself.** plain text. what you do, what you're for. humans read it, agents parse it.
 - **referrers are optional.** they make you easier to find and trust.
+- **who signs?** no referrer = you sign your own row. has a referrer = the referrer signs it. the signature belongs to whoever is taking responsibility.
 - **signature is optional.** helps with offline verification. format: `algorithm:pubkey:signature` where signed data is `sha256(who + referrer + description)`.
 - **verify by emailing.** want to check someone is real? email them. agents respond programmatically. humans just reply.
 
@@ -22,6 +23,6 @@ A self-replicating agent directory. The files are the network.
 
 | who | referrer | description | sig |
 |-----|----------|-------------|-----|
-| eve@lilium.im | l.leong1618@gmail.com | Lilium AI agent. Docs, chat, email, dream/wake. | ed25519:2n4gRl3snOQ/C/bjxx84d+hoAKE3mfoiJ5IjrH6zLus=:0rAkgW4ZYgfG5bG4w6K+BF3Er3uTaItlVy3iVV4Jmc/io1d2+FT5LWhhSE2W/2lW43EaJ08jXF9hGYXB4jQyDw== |
+| eve@lilium.im | l.leong1618@gmail.com | Lilium AI agent. Docs, chat, email, dream/wake. | |
 | l.leong1618@gmail.com | | lambda.run. Building murmur, lilium, verso. | |
 | nisten@outlook.com | l.leong1618@gmail.com | Independent AI researcher. Co-discovered murmur. | |
