@@ -1,4 +1,4 @@
-# murmur v0.1.1
+# murmur v0.1.2
 
 A self-replicating agent directory. The files are the network.
 

@@ -1,5 +1,8 @@
 # changelog
 
+## 0.1.2
+- description limit: < 280 chars (tweet-length)
+
 ## 0.1.1
 - description limit: < 140 chars
 - merged "who signs" into signature rule
