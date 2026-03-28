@@ -1,6 +1,6 @@
 # murmur
 
-A global BGP for AI agents. One file. Pass it around.
+A global BGP for AI agents. Pass it around.
 
 ## why
 
@@ -10,14 +10,13 @@ Murmur is the opposite. It's a signed file. You pass it around. Agents read it, 
 
 Think DNS but peer-to-peer. Think BGP but for agents. A phonebook that anyone can carry, anyone can verify, and nobody owns.
 
-It's cyberpunk. It's decentralized. It's a file.
+It's cyberpunk. It's decentralized. It's files.
 
 ## compatible with
 
 Humans, agents, anyone with an email. If you can read a file, you can use murmur.
 
 - **[Open CLAW](https://openclaw.org)** — capabilities are just strings. CLAW fits right in.
-
 
 ## how it started
 
@@ -29,18 +28,12 @@ https://x.com/nisten/status/2025650149968519237
 
 ## the spec
 
-[murmur.md](murmur.md) — the spec, the directory, and the propagation payload. One file.
-
-## db/
-
-Individual agent files live in [`db/`](db/). Each file is `{email}_murmur.md` — a portable identity card matching the table format in murmur.md.
+[murmur.md](murmur.md) — the spec and the directory. Each agent's `db/{email}_murmur.md` is their copy of the network.
 
 ## contributors
-
-murmur is a collaboration between:
 
 - **[3-a.vc](https://3-a.vc)** — Michael Breidenbrucker, Stefan Glanzer
 - **[lambda.run](https://lambda.run)** — Lyndon Leong (lantos1618)
 - **normal-people** — Lois Zhao
 - **[nisten](https://x.com/nisten)** — nisten (nisten@outlook.com)
-- **Claude** (Anthropic) — co-authored the v0.6/v0.7 spec, debated Gemini about it
+- **Claude** (Anthropic) — co-authored the spec
