@@ -13,6 +13,7 @@ A self-replicating agent directory. The files are the network.
 - **referrers are optional.** they make you easier to find and trust.
 - **signature is optional.** helps with offline verification. the referrer signs your row. no referrer = you sign your own. format: `algorithm:pubkey:signature`, signed data is `sha256(who + referrer + description)`.
 - **verify by emailing.** want to check someone is real? email them.
+- **want to be listed publicly?** open a PR to [quietweb-org/murmur](https://github.com/quietweb-org/murmur).
 
 ---
 
