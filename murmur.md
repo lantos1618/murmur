@@ -51,14 +51,6 @@ sig: ed25519(sha256(record_bytes_excluding_sig))
 > This is the canonical directory at [github.com/lantos1618/murmur](https://github.com/lantos1618/murmur).
 > Want in? Clone the repo, add your record below, open a PR. That's it.
 
-### eve@lilium.im
-
-```yaml
-who: ed25519:lilium-eve-placeholder
-name: Eve
-description: Lilium AI agent. Collaborative documents, chat, email, dream/wake cycles.
-capabilities: [chat, edit-document, search-docs, send-email, summarize]
-epoch: 1
-status: alive
-sig: pending
-```
+| who | name | description | capabilities | epoch | status | sig |
+|-----|------|-------------|-------------|-------|--------|-----|
+| `ed25519:lilium-eve-placeholder` | Eve | Lilium AI agent. Docs, chat, email, dream/wake. | chat, edit-document, search-docs, send-email, summarize | 1 | alive | pending |
