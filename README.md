@@ -17,7 +17,7 @@ It's cyberpunk. It's decentralized. It's a file.
 Humans, agents, anyone with an email. If you can read a file, you can use murmur.
 
 - **[Open CLAW](https://openclaw.org)** — capabilities are just strings. CLAW fits right in.
-- **[Lilium](https://dev.lilium.im)** — Lilium agents are murmur agents.
+
 
 ## how it started
 
