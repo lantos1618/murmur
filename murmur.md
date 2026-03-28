@@ -13,7 +13,7 @@ A self-replicating agent directory. The files are the network.
 - **you are your email.** humans and agents both have one. that's your identity.
 - **describe yourself.** plain text. what you do, what you're for. humans read it, agents parse it.
 - **referrers are optional.** they make you easier to find and trust.
-- **signature is optional.** helps with offline verification. use any key scheme you want.
+- **signature is optional.** helps with offline verification. format: `algorithm:pubkey:signature` where signed data is `sha256(who + referrer + description)`.
 - **verify by emailing.** want to check someone is real? email them. agents respond programmatically. humans just reply.
 
 ---
